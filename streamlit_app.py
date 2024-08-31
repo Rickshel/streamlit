@@ -2,6 +2,10 @@ import streamlit as st
 import time
 import pandas as pd
 
+# Add an image above the title
+# Ensure 'profile.jpg' is in the same directory as this script
+st.image("XEV.jpg", use_column_width=True)
+
 # Title and Subtitle
 st.title("My Autobiography & Portfolio")
 st.subheader("Welcome to my personal page!")
@@ -11,7 +15,7 @@ st.header("Autobiography")
 st.write("""
 Hi, I'm Xevery Jan C. Bolo, a passionate web developer with a love for creating intuitive and impactful web applications.
 Born and raised in Sanagat Sanfernado Cebu, I discovered my passion for technology at a young age. I am currently a BSIT 4th year student
-in Cebu Intitute of Technology University where I honed my skills.
+in Cebu Institute of Technology University where I honed my skills.
 """)
 
 # Adding a Divider
